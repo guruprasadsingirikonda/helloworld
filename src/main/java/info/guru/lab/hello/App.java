@@ -1,4 +1,4 @@
-package info.maigo.lab.hello;
+package info.guru.lab.hello;
 
 import org.json.*;
 import com.mashape.unirest.http.*;

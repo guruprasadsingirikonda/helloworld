@@ -1,4 +1,4 @@
-package info.maigo.lab.hello;
+package info.guru.lab.hello;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -20,7 +20,7 @@ public class AppTest extends TestCase {
   public void testGetUserInfoURL() {
     String name = "guruprasadsingirikonda";
     App app = new App(name);
-    assertEquals("https://api.github.com/users/niwasawa", app.getUserInfoURL());
+    assertEquals("https://api.github.com/users/guruprasadsingirikonda", app.getUserInfoURL());
   }
 }
 
